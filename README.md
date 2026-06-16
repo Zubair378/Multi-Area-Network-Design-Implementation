@@ -119,11 +119,7 @@ Ensure devices on edge networks successfully receive IP configurations from `Ser
 
 ### 4. ACL Restrictions
 Attempt to ping/access the Web Server from a blocked IP or Subnet to verify the Extended ACL drops the packet.
-
-
 <img width="936" height="517" alt="image" src="https://github.com/user-attachments/assets/ae794a7c-6020-4de4-b502-f48d713080e2" />
-
-
 
 ---
 
