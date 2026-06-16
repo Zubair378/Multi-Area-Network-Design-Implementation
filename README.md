@@ -1,4 +1,3 @@
-<img width="1857" height="1051" alt="image" src="https://github.com/user-attachments/assets/51f81869-26f2-4565-85cf-09462d75ab61" /># Multi-Area Network Design & Implementation
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Cisco](https://img.shields.io/badge/Cisco-Packet_Tracer-blue)
