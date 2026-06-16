@@ -1,4 +1,4 @@
-# Multi-Area Network Design & Implementation
+<img width="1857" height="1051" alt="image" src="https://github.com/user-attachments/assets/51f81869-26f2-4565-85cf-09462d75ab61" /># Multi-Area Network Design & Implementation
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Cisco](https://img.shields.io/badge/Cisco-Packet_Tracer-blue)
@@ -11,9 +11,7 @@ This project, developed in Cisco Packet Tracer (`i242095.pkt`), demonstrates a c
 ---
 
 ## 📸 Network Topology
-<!-- ⚠️ ACTION REQUIRED: Add a screenshot of your overall Packet Tracer topology here -->
-![Network Topology Screenshot](docs/images/topology.png)
-*(Caption: Full network topology showing all interconnected areas and devices)*
+<img width="1479" height="764" alt="image" src="https://github.com/user-attachments/assets/02e63a6c-791c-4efa-9110-1b38e3be4cfa" />
 
 ---
 
@@ -43,8 +41,11 @@ The network is divided into four distinct routing domains to optimize traffic an
 | **OSPF Area 2** | OSPF Process 1, Area 2 | Router10, Router11, Router12, Router13, Router18 | Networks G, H, I |
 | **RIPv2** | RIP Version 2 | Router18, Router14, Router15, Router16, Router17 | Networks J, K |
 
-<!-- ⚠️ ACTION REQUIRED: Add a screenshot highlighting the routing domains (e.g., color-coded sections in Packet Tracer) -->
-![Routing Domains](docs/images/routing_domains.png)
+
+
+
+<img width="838" height="672" alt="image" src="https://github.com/user-attachments/assets/ff0edd77-2a5e-47e5-9156-47aa32054264" />
+
 
 ---
 
@@ -90,25 +91,39 @@ To verify the functionality of this network, run the following tests in Packet T
 ### 1. End-To-End Connectivity (Ping)
 Test ICMP communication from a PC in Network A (OSPF Area 1) to a PC in Network K (RIPv2).
 <!-- ⚠️ ACTION REQUIRED: Add a screenshot of a successful ping across the network -->
-![Successful Ping](docs/images/ping_test.png)
+
+
+
+<img width="969" height="202" alt="image" src="https://github.com/user-attachments/assets/52043e3e-9b10-4b95-b4fa-909c915622ee" />
+
 
 ### 2. Route Redistribution Verification
 Check the routing table on the border routers (e.g., Router2, Router10, Router18) to ensure external routes (`O E2`, `D EX`, `R`) are being injected.
 ```bash
 Router# show ip route
 ```
-<!-- ⚠️ ACTION REQUIRED: Add a screenshot of the 'show ip route' command from a border router -->
-![Routing Table Screenshot](docs/images/routing_table.png)
+<img width="1273" height="824" alt="image" src="https://github.com/user-attachments/assets/4fbdc0c4-fe05-4e52-a81d-acf9d98d41b8" />
+
 
 ### 3. DHCP Allocation
 Ensure devices on edge networks successfully receive IP configurations from `Server1`.
 <!-- ⚠️ ACTION REQUIRED: Add a screenshot of a PC successfully grabbing a DHCP IP -->
-![DHCP Success](docs/images/dhcp_success.png)
+<img width="1752" height="878" alt="image" src="https://github.com/user-attachments/assets/b23549f5-8d94-4561-8fca-e78a1c85cdae" />
+
+
+
+<img width="1857" height="1051" alt="image" src="https://github.com/user-attachments/assets/c4212889-b680-4763-aed2-3dbd511944a1" />
+
+
+
 
 ### 4. ACL Restrictions
 Attempt to ping/access the Web Server from a blocked IP or Subnet to verify the Extended ACL drops the packet.
-<!-- ⚠️ ACTION REQUIRED: Add a screenshot showing "Destination Host Unreachable" or blocked traffic through simulation mode -->
-![ACL Blocked](docs/images/acl_block.png)
+
+
+<img width="936" height="517" alt="image" src="https://github.com/user-attachments/assets/ae794a7c-6020-4de4-b502-f48d713080e2" />
+
+
 
 ---
 
